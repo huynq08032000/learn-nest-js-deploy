@@ -12,3 +12,14 @@ export const databaseConfig: any = {
   synchronize: true,
   entities: [Task, User],
 };
+
+export const databaseConfigMySql: any = {
+  type: 'mysql',
+  host: 'localhost',
+  port: 5432,
+  username: 'root',
+  password: '123456',
+  database: 'LearnNestJSV2',
+  synchronize: true,
+  entities: [Task, User],
+};
